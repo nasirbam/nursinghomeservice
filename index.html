@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>নার্সিং হোম কেয়ার সার্ভিস - ময়মনসিংহ</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts (Hind Siliguri) -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Hind Siliguri', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Top Emergency Bar -->
+    <div class="bg-teal-700 text-white py-2 px-4 text-sm font-medium">
+        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center text-center sm:text-left gap-1">
+            <div><i class="fa-solid fa-location-dot text-amber-300 mr-1"></i> সেবার এলাকা: ময়মনসিংহ শহর ও আশপাশের অঞ্চল</div>
+            <div>
+                <a href="tel:01855883230" class="hover:underline flex items-center justify-center gap-1">
+                    <i class="fa-solid fa-phone-volume text-amber-300"></i> ২৪/৭ হটলাইন: <span class="font-bold">01855-883230</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="bg-teal-600 text-white p-2 rounded-lg">
+                    <i class="fa-solid fa-user-nurse text-2xl"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold text-teal-800 leading-tight">হোম কেয়ার নার্সিং</h1>
+                    <p class="text-xs text-slate-500">ময়মনসিংহ সার্ভিস</p>
+                </div>
+            </div>
+            <a href="tel:01855883230" class="bg-teal-600 hover:bg-teal-700 text-white font-semibold px-4 py-2 rounded-full text-sm transition flex items-center gap-2 shadow">
+                <i class="fa-solid fa-phone"></i> <span class="hidden sm:inline">কল করুন</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-teal-50 to-emerald-100 py-12 px-4 text-center sm:text-left">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-8">
+            <div>
+                <span class="bg-teal-100 text-teal-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">বিশ্বস্ত স্বাস্থ্যসেবা</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 leading-snug">
+                    আপনার প্রিয়জনের পেশাদার পরিচর্যা এখন ঘরের কাছেই
+                </h2>
+                <p class="text-slate-600 mt-3 text-base">
+                    অভিজ্ঞ ডিপ্লোমা নার্স ও মেল/ফিমেল কেয়ারগিভার দ্বারা ময়মনসিংহে ২৪/৭ হোম কেয়ার সার্ভিস প্রদান করা হয়।
+                </p>
+                <div class="mt-6 flex flex-wrap justify-center sm:justify-start gap-3">
+                    <a href="tel:01855883230" class="bg-teal-600 hover:bg-teal-700 text-white font-bold px-6 py-3 rounded-lg shadow-lg transition flex items-center gap-2">
+                        <i class="fa-solid fa-phone-volume"></i> কল করুন: 01855-883230
+                    </a>
+                    <a href="https://wa.me/8801855883230" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white font-bold px-6 py-3 rounded-lg shadow-lg transition flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> হোয়াটসঅ্যাপ
+                    </a>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-xl border border-teal-100">
+                <h3 class="text-lg font-bold text-teal-800 mb-4 flex items-center gap-2">
+                    <i class="fa-solid fa-clipboard-list text-teal-600"></i> দ্রুত বুকিং সার্ভিস
+                </h3>
+                <form class="space-y-3" onsubmit="event.preventDefault(); alert('ধন্যবাদ! খুব শীঘ্রই ০১৮৫৫-৮৮৩২৩০ নম্বর থেকে আপনার সাথে যোগাযোগ করা হবে।');">
+                    <input type="text" placeholder="রোগীর বা আপনার নাম" required class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-teal-500 text-sm">
+                    <input type="tel" placeholder="মোবাইল নম্বর" required class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-teal-500 text-sm">
+                    <select class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-teal-500 text-sm">
+                        <option>প্রয়োজনীয় সেবা বেছে নিন</option>
+                        <option>বয়স্কদের সার্বক্ষণিক যত্ন (Elderly Care)</option>
+                        <option>অপারেশন পরবর্তী সেবা (Post-Op Care)</option>
+                        <option>মা ও নবজাতকের যত্ন (Baby Care)</option>
+                        <option>ফিজিওথেরাপি (Physiotherapy)</option>
+                        <option>ইনজেকশন / ক্যানুলা / ড্রেসিং</option>
+                    </select>
+                    <button type="submit" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 rounded-lg transition text-sm">
+                        অনুরোধ পাঠান
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid Section -->
+    <section class="py-12 px-4 max-w-6xl mx-auto">
+        <div class="text-center mb-10">
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-800">আমাদের প্রদানকৃত সেবাসমূহ</h2>
+            <div class="w-16 h-1 bg-teal-600 mx-auto mt-2 rounded"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Service 1 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-teal-100 text-teal-700 rounded-lg flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-wheelchair"></i>
+                </div>
+                <h3 class="font-bold text-lg text-slate-800 mb-2">বয়স্কদের সার্বক্ষণিক যত্ন</h3>
+                <p class="text-sm text-slate-600">প্রবীণদের গোসল, নিয়মিত ওষুধ প্রদান, খাবার খাওয়ানো এবং তাদের সার্বক্ষণিক দেখভাল করার সুব্যবস্থা।</p>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-user-nurse"></i>
+                </div>
+                <h3 class="font-bold text-lg text-slate-800 mb-2">পোস্ট-অপারেটিভ কেয়ার</h3>
+                <p class="text-sm text-slate-600">অপারেশনের পর ড্রেসিং, সেলাই খোলা, স্যালাইন, ইনজেকশন দেওয়া ও রোগীদের নিবিড় পর্যবেক্ষণ।</p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-amber-100 text-amber-700 rounded-lg flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-baby"></i>
+                </div>
+                <h3 class="font-bold text-lg text-slate-800 mb-2">মা ও নবজাতকের যত্ন</h3>
+                <p class="text-sm text-slate-600">ডেলিভারির পর প্রসূতি মা এবং নবজাতক শিশুর বিশেষ স্বাস্থ্য পরিচর্যা ও নার্সিং সাপোর্ট।</p>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-lg flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-child-reaching"></i>
+                </div>
+                <h3 class="font-bold text-lg text-slate-800 mb-2">হোম ফিজিওথেরাপি</h3>
+                <p class="text-sm text-slate-600">স্ট্রোক, প্যারালাইসিস বা পেইন রোগীদের অভিজ্ঞ ফিজিওথেরাপিস্ট দ্বারা বাসায় থেরাপি সার্ভিস।</p>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-purple-100 text-purple-700 rounded-lg flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-syringe"></i>
+                </div>
+                <h3 class="font-bold text-lg text-slate-800 mb-2">ক্যানুলা ও ক্যাথেটার সার্ভিস</h3>
+                <p class="text-sm text-slate-600">আইভি ক্যানুলা করা, নেবুলাইজার, ক্যাথেটার পরা ও পরিবর্তন করার দক্ষ নার্সিং সার্ভিস।</p>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-rose-100 text-rose-700 rounded-lg flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-truck-medical"></i>
+                </div>
+                <h3 class="font-bold text-lg text-slate-800 mb-2">মেডিকেল ইকুয়িপমেন্ট</h3>
+                <p class="text-sm text-slate-600">বাসায় ব্যবহারের জন্য অক্সিজেন সিলিন্ডার, পেশেন্ট বেড, হুইলচেয়ার ভাড়া ও ডেলিভারি।</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="bg-slate-100 py-12 px-4">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-800 mb-8">কেন আমাদের বেছে নেবেন?</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-white p-4 rounded-xl shadow-sm">
+                    <i class="fa-solid fa-clock text-2xl text-teal-600 mb-2"></i>
+                    <h4 class="font-bold text-slate-800 text-sm sm:text-base">২৪/৭ সেবা</h4>
+                    <p class="text-xs text-slate-500">দিন বা রাতে যেকোনো সময়</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl shadow-sm">
+                    <i class="fa-solid fa-user-check text-2xl text-teal-600 mb-2"></i>
+                    <h4 class="font-bold text-slate-800 text-sm sm:text-base">পেশাদার নার্স</h4>
+                    <p class="text-xs text-slate-500">অভিজ্ঞ ও ভেরিফাইড স্টাফ</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl shadow-sm">
+                    <i class="fa-solid fa-hand-holding-dollar text-2xl text-teal-600 mb-2"></i>
+                    <h4 class="font-bold text-slate-800 text-sm sm:text-base">সাশ্রয়ী খরচ</h4>
+                    <p class="text-xs text-slate-500">স্বচ্ছ ও সুলভ মূল্য</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl shadow-sm">
+                    <i class="fa-solid fa-map-location-dot text-2xl text-teal-600 mb-2"></i>
+                    <h4 class="font-bold text-slate-800 text-sm sm:text-base">ময়মনসিংহে বিস্তৃত</h4>
+                    <p class="text-xs text-slate-500">সদর ও পার্শ্ববর্তী সব এলাকায়</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="bg-teal-800 text-white py-10 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-3">জরুরি প্রয়োজনে বা বুকিং এর জন্য এখনই কল করুন</h2>
+            <p class="text-teal-100 mb-6 text-sm sm:text-base">আমাদের প্রতিনিধি সার্বক্ষণিক আপনার সেবায় নিয়োজিত রয়েছে।</p>
+            <a href="tel:01855883230" class="inline-block bg-amber-400 hover:bg-amber-500 text-slate-900 text-xl font-bold px-8 py-3 rounded-full shadow-lg transition">
+                <i class="fa-solid fa-phone mr-2"></i> 01855-883230
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 px-4 text-center text-sm border-t border-slate-800">
+        <div class="max-w-6xl mx-auto">
+            <p class="font-medium text-slate-300">নার্সিং হোম কেয়ার সার্ভিস, ময়মনসিংহ</p>
+            <p class="text-xs mt-1">যোগাযোগ: 01855-883230 | ইমেইল/লোকেশন: ময়মনসিংহ শহর</p>
+            <p class="text-xs text-slate-600 mt-4">&copy; 2026 Home Nursing Service. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Mobile Call & WhatsApp Buttons -->
+    <div class="fixed bottom-4 right-4 flex flex-col gap-3 z-50 sm:hidden">
+        <a href="https://wa.me/8801855883230" target="_blank" class="bg-emerald-500 text-white w-12 h-12 rounded-full flex items-center justify-center text-2xl shadow-xl active:scale-95 transition">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="tel:01855883230" class="bg-teal-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl shadow-xl active:scale-95 transition">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+    </div>
+
+</body>
+</html>
